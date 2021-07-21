@@ -1,0 +1,15 @@
+.Songs {
+  width: 500px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(44, 44, 44);
+  color: #cfcfcf;
+  border-radius: 10px;
+}
+
+.Songs ul {
+  text-align: left;
+  padding: 0;
+  list-style-type: none;
+  max-height: 100%;
+}

@@ -1,0 +1,33 @@
+.SongListItem {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.SongListItem:hover {
+  color: #fac863;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.SongListItem.selected {
+  margin-left: 0px;
+  background: linear-gradient(
+    45deg,
+    #ec5f67,
+    #f99157,
+    #fac863,
+    #99c794,
+    #5fb3b3,
+    #6699cc,
+    #c594c5
+  );
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  cursor: pointer;
+}
