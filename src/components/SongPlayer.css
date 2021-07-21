@@ -24,7 +24,7 @@
 }
 
 .MuiSvgIcon-root {
-  font-size: 50px;
+  font-size: 50px !important;
   color: #99c794;
   font-size: 50px;
   cursor: pointer;

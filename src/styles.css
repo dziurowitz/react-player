@@ -10,13 +10,9 @@ body {
     #c594c5
   );
   margin: 20px;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-h1 {
-  margin: 5px;
+  height: 100vh;
 }
