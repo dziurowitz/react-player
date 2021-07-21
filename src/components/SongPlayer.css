@@ -24,6 +24,7 @@
 }
 
 .MuiSvgIcon-root {
+  font-size: 50px;
   color: #99c794;
   font-size: 50px;
   cursor: pointer;
@@ -32,7 +33,6 @@
 
 .MuiSvgIcon-root:hover {
   color: #fac863;
-  font-size: 50px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
