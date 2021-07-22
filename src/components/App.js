@@ -29,17 +29,17 @@ export function App() {
     }
   }
 
-  const handlePreviousSong = () => {
+  function handlePreviousSong() {
     const previousCurrentSongIndex = currentSongIndex;
     setCurrentSongIndex(
       (previousCurrentSongIndex + songs.length - 1) % songs.length
     );
-  };
+  }
 
-  const handleNextSong = () => {
+  function handleNextSong() {
     const previousCurrentSongIndex = currentSongIndex;
     setCurrentSongIndex((previousCurrentSongIndex + 1) % songs.length);
-  };
+  }
 
   return (
     <div className="App">

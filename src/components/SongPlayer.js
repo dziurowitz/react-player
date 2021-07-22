@@ -17,14 +17,14 @@ export function SongPlayer({
 
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
 
-  const handlePreviousSong = () => {
+  function handlePreviousSong() {
     onPreviousSong();
     setIsAudioPlaying(false);
-  };
-  const handleNextSong = () => {
+  }
+  function handleNextSong() {
     onNextSong();
     setIsAudioPlaying(false);
-  };
+  }
 
   return (
     <section className="SongPlayer">
