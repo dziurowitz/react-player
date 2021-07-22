@@ -4,6 +4,7 @@ import { SongListItem } from "./SongListItem";
 import { SongPlayer } from "./SongPlayer";
 import { Songs } from "./Songs";
 import "./App.css";
+import HourglassEmptyRoundedIcon from "@material-ui/icons/HourglassEmptyRounded";
 
 export function App() {
   const URL = "https://examples.devmastery.pl/songs-api/songs";
@@ -44,7 +45,7 @@ export function App() {
   return (
     <div className="App">
       {songs.length === 0 ? (
-        "Loading..."
+        <HourglassEmptyRoundedIcon color="disabled" />
       ) : (
         <>
           <SongPlayer
